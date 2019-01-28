@@ -1,10 +1,10 @@
 [package]
 name = "ecdh_wrapper"
-version = "0.0.8"
-authors = ["David Stainton <dstainton415@gmail.com>"]
-description = "ECDH wrapper library, currently wrapping sodiumoxide."
-homepage = "https://github.com/applied-mixnetworks/ecdh_wrapper"
-repository = "https://github.com/applied-mixnetworks/ecdh_wrapper"
+version = "0.0.9"
+authors = ["David Stainton <dawuud@riseup.net>"]
+description = "ECDH wrapper library"
+homepage = "https://github.com/sphinx-cryptography/ecdh_wrapper"
+repository = "https://github.com/sphinx-cryptography/ecdh_wrapper"
 documentation = "https://docs.rs/ecdh_wrapper/"
 readme = "README.md"
 keywords = ["cryptography", "ecdh"]
