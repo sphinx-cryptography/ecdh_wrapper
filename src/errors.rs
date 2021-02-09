@@ -46,7 +46,7 @@ impl Error for KeyError {
         "I'm a command error."
     }
 
-    fn cause(&self) -> Option<&Error> {
+    fn cause(&self) -> Option<&dyn Error> {
         use self::KeyError::*;
         match self {
             InvalidKeyType => None,
